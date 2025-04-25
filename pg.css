@@ -1,0 +1,37 @@
+ah2 {
+   color: rgb(14, 101, 144);
+   text-align: center;
+   border-style: solid;
+   border-color: gray
+}
+
+body {
+   background-color: rgb(0, 0, 0)
+}
+
+#a {
+   border-left: 6px solid rgb(0, 166, 255);
+   background-color: rgb(0, 90, 128)
+}
+
+#e {
+   color: burlywood;
+}
+
+
+#m {
+   color: rgb(0, 255, 221);
+   border: 2px solid rgb(0, 90, 128);
+   outline: gray solid 10px;
+   margin: auto;
+   padding: 20px;
+   text-align: center;
+}
+
+#t {
+   color: rgb(92, 93, 93);
+}
+
+#O {
+   color: grey;
+}

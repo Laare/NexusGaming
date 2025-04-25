@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teste.css">
+    <style>
+        body.light-theme {
+            background-color: white;
+            color: black;
+        }
+
+        body.dark-theme {
+            background-color: black;
+            color: white;
+        }
+
+        
+
+        #m {
+            color: rgb(0, 255, 221);
+            border: 2px solid rgb(0, 90, 128);
+            outline: gray solid 10px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(14, 101, 144);
+            text-align: center;
+            border-style: solid;
+            border-color: gray;
+        }
+
+        #a {
+            border-left: 6px solid rgb(0, 166, 255);
+            background-color: rgb(0, 90, 128);
+        }
+
+        #e {
+            color: burlywood;
+        }
+
+        #q {
+            color: red;
+        }
+
+        #t {
+            color: rgb(92, 93, 93);
+        }
+
+        #O {
+            color: grey;
+        }
+        .watch-img {
+            border-radius: 20px;
+            transition: transform 0.3s ease;
+        }
+        .watch-img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="dark-theme">
+    <h1 id="m">MONTRE DE LUXE</h1>
+    <h2>Rolex Day-Date:</h2>
+    <p id="a"></p>
+    <table border="0" width="1220PX">
+        <tr id="t">
+            <th>Rolex Day-Date12</th>
+            <th>Rolex Day-Date2001</th>
+            <th>Rolex Day-Date2</th>
+        </tr>
+        <br>
+        <tr>
+            <th><img class="watch-img" src="rolex1.jpg" alt="rien" width="300PX"></th>
+            <th><img class="watch-img" src="rolex_detail2_watch_assets_front_facing_m126000-0006_modelpage_front_facing_landscape.png" alt="ein" width="300PX"></th>
+            <th><img class="watch-img" src="rolex3.webp" alt="rien" width="300PX"></th>
+        </tr>
+        <tr id="q">
+            <th>PRIX: <s>16000DH /</s>13000DH</th>
+            <th>PRIX:<s>17000DH /</s>13500DH</th>
+            <th>PRIX:<s>15000DH /</s>14000DH</th>
+        </tr>
+        <tr id="O">
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+        </tr>
+    </table>
+    <br><br>
+    <h2>REML:</h2>
+    <table border="0" width="1220">
+        <tr id="e">
+            <th>CHAR-5</th>
+            <th>MULI-Z</th>
+            <th>OMEGA-20</th>
+        </tr>
+        <tr>
+            <th><img class="watch-img" src="MON1.jpg" alt="" width="300PX"></th>
+            <th><img class="watch-img" src="MONT2.jpg" alt="" width="300PX"></th>
+            <th><img class="watch-img" src="MONT3.webp" alt="" width="300PX"></th>
+        </tr>
+        <tr id="q">
+            <th>PRIX:<s>24000DH /</s>20000DH</th>
+            <th>PRIX:<s>22000DH /</s>21000DH</th>
+            <th>PRIX:<s>20000DH /</s>19000DH</th>
+        </tr>
+        <tr id="O">
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+        </tr>
+    </table>
+    <br><br>
+    <h2>CHOW LAS-MONTR:</h2>
+    <table border="0" width="1220PX">
+        <tr id="e">
+            <th>RAGNO 1250</th>
+            <th>NAZ-TWEL</th>
+            <th>BOSS 130</th>
+        </tr>
+        <br>
+        <tr>
+            <th><img class="watch-img" src="magana1.webp" alt="rien" width="300PX"></th>
+            <th><img class="watch-img" src="magana2.jpeg" alt="ein" width="300PX"></th>
+            <th><img class="watch-img" src="magana3.jpeg" alt="rien" width="300PX"></th>
+        </tr>
+        <tr id="q">
+            <th>PRIX:<s>32000DH /</s>30000DH</th>
+            <th>PRIX:<s>34000DH /</s>30500DH</th>
+            <th>PRIX:<s>25000DH /</s>22000DH</th>
+        </tr>
+        <tr id="O">
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+            <th>POUR COMMANDEZ <input type="submit" value="CLIQUEZ ICI:"></th>
+        </tr>
+    </table>
+
+    <button onclick="toggleTheme()">Change Theme</button>
+
+    <script src="them.js"></script>
+</body>
+</html>

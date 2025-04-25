@@ -1,0 +1,46 @@
+header{
+    display: flex;
+align-items: center;
+}
+h1{
+    margin: 0px;
+}
+img{
+ 
+    padding: 40px;
+   width: 60px;
+   height: 60px;
+}
+nav{
+    margin-left: 60PX;
+    margin-right: 60px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+a{
+    text-decoration: none;
+}
+nav ul li {
+    margin-right: 40px;
+    list-style-type: none;
+}
+nav ul {
+    display: flex;
+}
+nav ul li:hover{
+    border-radius: 20px;
+    background-color: aqua;
+}
+div.kolchi{
+    
+    display: flex;
+}
+div .a,.b,.c{
+    border:2px rgb(0, 0, 0) solid;
+    margin-right: 40px;
+    width: 40%;
+    height: 70PX;
+}
+p{
+   text-align: center;
+}
